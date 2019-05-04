@@ -63,7 +63,7 @@ body {
 .nav {
     /* float: left; */
     width: 30%;
-    height: 350px;
+    height: 373px;
     background: #ccc;
     padding: 20px;
     border: 1px solid black;
@@ -126,7 +126,7 @@ nav ul {
     padding: 20px;
     width: 70%;
     background-color: white;
-    height: 350px;
+    height: 373px;
     border: 1px solid black;
 }
 .iframe {
