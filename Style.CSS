@@ -7,6 +7,7 @@ body {
     padding: 0px;
     border: 1px;
     width: 100%;
+    height: 100px;
 }
 .image {
     float: left;
@@ -14,42 +15,55 @@ body {
 }
 .div {
     background-color: aqua;
-    float: left;
 }
-#button {
+.floatRight{
     float: right;
+}
+
+.width-100{
+    width: 100%;
+}
+
+#button {
+    /* float: right; */
     font-family: Courier;
     font-size: 20px;
-    margin-top: 26px; margin-right: 50px;
+    margin-top: 26px; margin-right: 20px;
 }
 #button01 {
     font-family: Courier;
-    float: right;
+    /* float: right; */
     margin-top: 26px; margin-right: 30px;
     font-size: 20px;
 }
 .image01 {
     float: right;
-    margin-right: 100px; margin-top: 10px; margin-bottom: 10px;
+    margin-right: 10px; margin-top: 10px; margin-bottom: 10px;
 }
 .div01 {
-    width: 100%; height: 400px;
+    /* width: 100%; */
+    text-align: center;
+    
 }
 .bgimage {
-    background-image: url("Image/img .jpeg");
+    background-image: url("./Image/img.jpeg");
 }
 .label {
     font-family: cursive;
     font-size: 40px;
-    float: left;
-    margin-left: 780px;
-    margin-top: 60px;
+    /* float: left; */
+    text-align: center;
+    /* margin-left: 33%; */
+    /* margin-top: 100px; */
     color: red;
 }
+.flex-row {
+    display: flex;
+}
 .nav {
-    float: left;
+    /* float: left; */
     width: 30%;
-    height: 300px;
+    height: 350px;
     background: #ccc;
     padding: 20px;
     border: 1px solid black;
@@ -60,19 +74,81 @@ nav ul {
 }
 .section {
     content: "";
-  display: table;
-  clear: both;
+    display: table;
+    clear: both;
+}
+.div02 {    
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0%;
+    border-bottom-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.div03 {
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0%;
+    border-bottom-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.div04 {
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0%;
+    border-bottom-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.div05 {
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0%;
+    border-bottom-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.div06 {
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0%;
+    text-align: center;
+    border-collapse: collapse;
 }
 .aside {
-    float: right;
+    /* float: left; */
     padding: 20px;
-    width: 65%;
-    background-color: #f1f1f1;
-    height: 300px;
+    width: 70%;
+    background-color: white;
+    height: 350px;
+    border: 1px solid black;
+}
+.iframe {
+    height: 350px;
+    width: 99.9%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: white;
+}
+.artical {
+    /* float: left; */
+    width: 99.9%;
+    background-color: white;
+    height: 180px;
+    border: 1px solid black;
+    text-align: center;
 }
 .footer {
-    background-color: #777;
+    background-color: aqua;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: black;
+    border: 1px solid black;
 }
